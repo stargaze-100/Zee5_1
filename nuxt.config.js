@@ -7,7 +7,7 @@ export default {
   */
   mode: 'spa',
   router: {
-    base: '/nmimsdemo/gh-pages/'
+    base: '/nmimsdemo/'
   },
   /*
   ** Nuxt target
