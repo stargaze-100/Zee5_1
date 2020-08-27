@@ -10,7 +10,7 @@
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
-    "nuxt": "^2.14.0"
+    "nuxt": "^2.14.4"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.11.2",
