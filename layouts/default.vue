@@ -10,7 +10,7 @@
     </v-app-bar>
 
     <!-- Body -->
-    <v-content>
+    <v-content light>
       <nuxt /> 
     </v-content>
     
@@ -29,5 +29,9 @@ export default {}
 <style> 
   .white--text {
     border: 1px solid;
+  }
+
+   #inspire {
+    background-color: white;
   }
 </style>
