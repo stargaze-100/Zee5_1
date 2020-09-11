@@ -7,7 +7,7 @@ export default {
   */
   mode: 'spa',
   router: {
-    base: '/webdev-starter-materialUI/'
+    base: '/Zee5_1/'
   },
   /*
   ** Nuxt target
