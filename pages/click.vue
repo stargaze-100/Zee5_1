@@ -1,9 +1,7 @@
 <template>
   <div>
     <v-content>
-      <Custom/>
-      <br> </br>
-      <loadcard/>
+      <Dialogue/>
     </v-content>
   </div>
 </template>

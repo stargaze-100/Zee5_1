@@ -1,9 +1,11 @@
 <template>
   <div>
     <v-content>
-      <Custom/>
+    align-content: left;
+      <Grid/>
       <br> </br>
-      <loadcard/>
+      align-content: right;
+      <Horicard/>
     </v-content>
   </div>
 </template>
