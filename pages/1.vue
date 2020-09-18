@@ -1,8 +1,7 @@
 <template>
   <div>
-    <v-content>    
-      <Megamenu2/>
-      <Slide1/>
+    <v-content>
+      <Filter/>
     </v-content>
   </div>
 </template>

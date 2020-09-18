@@ -3,11 +3,6 @@
   <v-app id="inspire">
     
     <!--Header -->
-    <v-app-bar color="red" dark fixed app>
-      <v-toolbar-title>Application</v-toolbar-title>
-       <!-- Component Example -->
-      <VuetifyLogo/>
-    </v-app-bar>
 
     <!-- Body -->
     <v-content light>
@@ -32,6 +27,6 @@ export default {}
   }
 
    #inspire {
-    background-color: white;
+    background-color:"#3F0C54";
   }
 </style>

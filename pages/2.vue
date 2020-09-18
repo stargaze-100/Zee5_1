@@ -1,11 +1,7 @@
 <template>
   <div>
     <v-content>
-    align-content: left;
-      <Grid/>
-      <br> </br>
-      align-content: right;
-      <Horicard/>
+      <Dropdown/>
     </v-content>
   </div>
 </template>

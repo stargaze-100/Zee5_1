@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-content>
-      <Dialogue/>
+      <Megamenu/>
     </v-content>
   </div>
 </template>
