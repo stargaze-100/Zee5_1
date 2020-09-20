@@ -20,7 +20,8 @@
         <v-spacer></v-spacer>
       <v-col> 
         <v-text-field
-          
+          align="center"
+          justify="center"
           mdi-magnify
           class="mx-12"
           flat
