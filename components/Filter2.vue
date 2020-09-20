@@ -1,85 +1,86 @@
 <template>
   <v-card
-    class="mx-auto overflow-hidden"
-    height="400"
-    width="344"
+    class="mx-auto"
+    width="300"
   >
-    <v-system-bar color="deep-purple darken-3"></v-system-bar>
+    <v-list>
+      <v-list-item>
+        <v-list-item-icon>
+          <v-icon>mdi-home</v-icon>
+        </v-list-item-icon>
 
-    <v-app-bar
-      color="deep-purple accent-4"
-      dark
-      prominent
-    >
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+        <v-list-item-title>Home</v-list-item-title>
+      </v-list-item>
 
-      <v-toolbar-title>My files</v-toolbar-title>
-
-      <v-spacer></v-spacer>
-
-      <v-btn icon>
-        <v-icon>mdi-magnify</v-icon>
-      </v-btn>
-
-      <v-btn icon>
-        <v-icon>mdi-filter</v-icon>
-      </v-btn>
-
-      <v-btn icon>
-        <v-icon>mdi-dots-vertical</v-icon>
-      </v-btn>
-    </v-app-bar>
-
-    <v-navigation-drawer
-      v-model="drawer"
-      absolute
-      bottom
-      temporary
-    >
-      <v-list
-        nav
-        dense
+      <v-list-group
+        prepend-icon="account_circle"
+        value="true"
       >
-        <v-list-item-group
-          v-model="group"
-          active-class="deep-purple--text text--accent-4"
+        <template v-slot:activator>
+          <v-list-item-title>Users</v-list-item-title>
+        </template>
+
+        <v-list-group
+          no-action
+          sub-group
+          value="true"
         >
-          <v-list-item>
-            <v-list-item-title>Foo</v-list-item-title>
-          </v-list-item>
+          <template v-slot:activator>
+            <v-list-item-content>
+              <v-list-item-title>Admin</v-list-item-title>
+            </v-list-item-content>
+          </template>
 
-          <v-list-item>
-            <v-list-item-title>Bar</v-list-item-title>
+          <v-list-item
+            v-for="(admin, i) in admins"
+            :key="i"
+            link
+          >
+            <v-list-item-title v-text="admin[0]"></v-list-item-title>
+            <v-list-item-icon>
+              <v-icon v-text="admin[1]"></v-icon>
+            </v-list-item-icon>
           </v-list-item>
+        </v-list-group>
 
-          <v-list-item>
-            <v-list-item-title>Fizz</v-list-item-title>
+        <v-list-group
+          sub-group
+          no-action
+        >
+          <template v-slot:activator>
+            <v-list-item-content>
+              <v-list-item-title>Actions</v-list-item-title>
+            </v-list-item-content>
+          </template>
+          <v-list-item
+            v-for="(crud, i) in cruds"
+            :key="i"
+            @click=""
+          >
+            <v-list-item-title v-text="crud[0]"></v-list-item-title>
+            <v-list-item-action>
+              <v-icon v-text="crud[1]"></v-icon>
+            </v-list-item-action>
           </v-list-item>
-
-          <v-list-item>
-            <v-list-item-title>Buzz</v-list-item-title>
-          </v-list-item>
-        </v-list-item-group>
-      </v-list>
-    </v-navigation-drawer>
-
-    <v-card-text>
-      The navigation drawer will appear from the bottom on smaller size screens.
-    </v-card-text>
+        </v-list-group>
+      </v-list-group>
+    </v-list>
   </v-card>
 </template>
 
 <script>
   export default {
     data: () => ({
-      drawer: false,
-      group: null,
+      admins: [
+        ['Management', 'people_outline'],
+        ['Settings', 'settings'],
+      ],
+      cruds: [
+        ['Create', 'add'],
+        ['Read', 'insert_drive_file'],
+        ['Update', 'update'],
+        ['Delete', 'delete'],
+      ],
     }),
-
-    watch: {
-      group () {
-        this.drawer = false
-      },
-    },
   }
 </script>

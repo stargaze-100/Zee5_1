@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-content>
-      <Filter/>
+      <Filter1/>
     </v-content>
   </div>
 </template>

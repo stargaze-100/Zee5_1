@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-content>
-      <Dropdown/>
+      <Filterq/>
     </v-content>
   </div>
 </template>
