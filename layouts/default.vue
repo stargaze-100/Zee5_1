@@ -1,4 +1,4 @@
-<template>
+<template >
   <!--Your App Starts Here -->
   <v-app id="inspire">
     
@@ -10,7 +10,7 @@
     </v-content>
     
     <!-- Footer -->
-    <v-footer color="purple" app>
+    <v-footer color="purple darken-4" app>
       <!--<span class="white--text">&copy; {{ new Date().getFullYear() }}</span>-->
     </v-footer>
 
@@ -27,6 +27,6 @@ export default {}
   }
 
    #inspire {
-    background-color:"#3F0C54";
+    background-color:"purple darken-4";
   }
 </style>

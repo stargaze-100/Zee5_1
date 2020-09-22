@@ -1,6 +1,6 @@
 <template>
   <v-card>
-  
+
     <v-toolbar
 
       color="black"
@@ -16,20 +16,40 @@
         </v-app-bar-nav-icon>
       </v-col>
         <!--<v-toolbar-title>Zee5</v-toolbar-title> -->
+        <!--<template>
+          <img
+            class="VuetifyLogo"
+            alt="Vuetify Logo"
+            src="zee5logo11.png">
+        </template>
+          <style>
+          .VuetifyLogo {
+            height: 50px;
+            width: 70px;}
+          </style>
+</template> -->
 
         <v-spacer></v-spacer>
       <v-col> 
         <v-text-field
-          align="center"
+          
+          <v-text-field
+            solo
+            rounded
+            hide-details
+            label="Search"
+            solo-inverted
+            append-icon="mdi-magnify"
+          
+        ></v-text-field>
+        <!--align="center"
           justify="center"
-          mdi-magnify
+          append-icon = "mdi-magnify"
           class="mx-12"
           flat
           hide-details
           label="Search"
-          solo-inverted
-        ></v-text-field>
-        
+          solo-inverted-->
       </v-col>
           <v-col>
       
