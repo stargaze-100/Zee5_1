@@ -1,7 +1,7 @@
 <template>
   <v-card>
     <v-toolbar
-      color="black"
+      color="purple darken-4"
       dark
       flat
     >
@@ -36,7 +36,9 @@
         <v-tabs
           v-model="currentItem"
           fixed-tabs
-          slider-color="#ff4d88"
+          color="pink"
+          slider-color="pink"
+          
         >
           <v-tab
             v-for="item in items"

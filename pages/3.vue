@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-content>
-     
+      <Megamen/>
     </v-content>
   </div>
 </template>

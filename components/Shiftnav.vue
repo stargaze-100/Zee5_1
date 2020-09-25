@@ -3,25 +3,27 @@
     v-model="bottomNav"
     dark
     shift
+    color="pink"
   >
+    <Filter1/>
     <v-btn>
-      <span>Video</span>
+      <span>Home</span>
+      <v-icon>mdi-home</v-icon>
+    </v-btn>
+
+    <v-btn>
+      <span>Originals</span>
       <v-icon>mdi-television-play</v-icon>
     </v-btn>
 
     <v-btn>
-      <span>Music</span>
-      <v-icon>mdi-music-note</v-icon>
-    </v-btn>
-
-    <v-btn>
-      <span>Book</span>
+      <span>Club</span>
       <v-icon>mdi-book</v-icon>
     </v-btn>
 
     <v-btn>
-      <span>Image</span>
-      <v-icon>mdi-image</v-icon>
+      <span>More</span>
+      <v-icon>mdi-apps</v-icon>
     </v-btn>
   </v-bottom-navigation>
 </template>
