@@ -1,18 +1,21 @@
 <template>
   <v-carousel 
+    cols="12" md="5"
     cycle
     hide-delimiter-background
     delimiter-icon="mdi-minus"
     show-arrows-on-hover
-    class="fill-height"
+    class="pa-"
     align="center"
     justify="center"
   >
     <v-carousel-item
+    cols="12" md="5"
       v-for="(item,i) in items"
       :key="i"
       :src="item.src"
-      style="width: 900px"
+      width="1000"
+      height="1600"
       centered
     ></v-carousel-item>
   </v-carousel>

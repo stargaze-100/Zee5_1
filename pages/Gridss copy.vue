@@ -12,11 +12,10 @@
         
       </v-col>
     
-      <v-col cols="12" md="4" px="4">
+      <v-col cols="12" md="4" mx="4">
         
           <searchbar/>
-        
-       </v-col>
+         </v-col>
 
        <v-col :cols="12" xs="6" sm="3" >
         <v-card
@@ -56,8 +55,10 @@
       </v-row>
       
       <v-row>
-        <v-col cols="12" xs="6">
-              <v-card color="purple darken-4">
+        <v-col cols="12" xs="10">
+              <v-card color="purple darken-4"
+              align="center"
+              justify="center">
                 <Slide1/>
               </v-card>
 
@@ -66,18 +67,16 @@
         
         <v-card 
           color="black"
-          class="mt-sm-5 mt-xs-4"
+          class="mt-sm-5"
           height="1500">
             <v-carousel hide-delimiters>
             <v-card
             align ="left"
             justify="left"
-           
-            class="pl-3 pt-3 black">
-            <div class=" text-truncate black">
+            class="pl-16 ml-16 ma-2 mr-n16 black">
+            <div class="col-2 ml-16 pl-16 text-truncate black">
               <h1>Top shows</h1>
-            </div> <!--class="pl-16 ml-16 ma-2 mr-n16 black">
-            <div class="col-2 ml-16 pl-16 text-truncate black">-->
+            </div>
             </v-card>
 
               <v-carousel-item>

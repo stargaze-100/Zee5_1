@@ -1,11 +1,10 @@
  <template>
- <v-card
-          class="pa-2"
-          outlined
+        <v-card
+          class="mr-6 md-5"
           tile
           centered
           <v-text-field
-            class="pr-16"
+            class="pr-xs-1 mt-3 pl-md-1"
             solo
             rounded
             hide-details
@@ -13,6 +12,7 @@
             solo-inverted
             
             append-icon="mdi-magnify">
-           </v-card>
-        ></v-text-field>
+            </v-text-field>
+        </v-card>
+       
         </template>

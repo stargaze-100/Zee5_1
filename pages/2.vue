@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-content>
-     
+     <Shiftnav/>
     </v-content>
   </div>
 </template>

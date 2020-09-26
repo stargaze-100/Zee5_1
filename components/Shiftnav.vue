@@ -1,11 +1,13 @@
-<template>
+<template
+color="black">
   <v-bottom-navigation
+    class="md-6 sm-4 mb-n6"
     v-model="bottomNav"
     dark
     shift
     color="pink"
   >
-    <Filter1/>
+    
     <v-btn>
       <span>Home</span>
       <v-icon>mdi-home</v-icon>
@@ -21,6 +23,7 @@
       <v-icon>mdi-book</v-icon>
     </v-btn>
 
+    
     <v-btn>
       <span>More</span>
       <v-icon>mdi-apps</v-icon>
