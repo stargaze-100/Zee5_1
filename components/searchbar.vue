@@ -1,6 +1,6 @@
  <template>
         <v-card
-          class="mr-6 md-5"
+          class="mr-6"
           tile
           centered
           <v-text-field

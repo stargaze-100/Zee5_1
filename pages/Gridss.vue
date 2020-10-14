@@ -1,8 +1,8 @@
 <template>
 <v-responsive>
-  <v-content class="purple darken-4" centered cols="16" xs="6" sm="10" md="14">
+  <v-content class="purple darken-4" centered>
     <v-row no-gutters>
-      <v-col cols="12" sm="4" pa="2" pl="4">
+      <v-col cols="2" sm="2" md="3"> 
         
           <v-app-bar-nav-icon>
         <v-img class="ml-sm-16 mt-sm-10" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Zee5_Official_logo.svg/1200px-Zee5_Official_logo.svg.png" 
@@ -12,13 +12,15 @@
         
       </v-col>
     
-      <v-col cols="12" md="4" px="4">
+      <v-col cols="9" md="5" sm="6">
         
           <searchbar/>
         
        </v-col>
 
-       <v-col :cols="12" xs="6" sm="3" >
+       <v-col cols="12"
+            sm="3"
+            md="4" >
         <v-card
           class="pa-2 mt-xs-n3 ml-md-14"
           outlined
@@ -51,7 +53,7 @@
         <v-card class="" 
         width="2000px"
         centered>
-        <v-col>
+        <v-col cols="12" sm="16" md="12">
         <Filter0/>
         </v-col>
        
@@ -60,14 +62,16 @@
       </v-row>
       
       <v-row>
-        <v-col cols="12" xs="6">
+        <v-col cols="12" sm="16" md="14">
               <v-card color="purple darken-4">
                 <Slide1/>
               </v-card>
 
             </v-col>
             </v-row>
-        
+
+        <v-row>
+        <v-col cols="12" sm="16" md="14">
         <v-card 
           color="black"
           class="mt-sm-5 mt-xs-4"
@@ -100,9 +104,13 @@
                 <Card3/>
               </v-carousel-item>
             </v-carousel>
+            
             </v-card>
+            </v-col>
+            </v-row>
         
     </v-content>
+    <Footer1/>
   </v-responsive>
 </template>
 
