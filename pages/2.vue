@@ -1,7 +1,8 @@
 <template>
   <div>
     <v-content>
-     <Shiftnav/>
+     <Filter1/>
+     <Filter0/>
     </v-content>
   </div>
 </template>

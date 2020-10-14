@@ -7,7 +7,7 @@ color="black">
     shift
     color="pink"
   >
-    
+    <Filter0/>
     <v-btn>
       <span>Home</span>
       <v-icon>mdi-home</v-icon>
