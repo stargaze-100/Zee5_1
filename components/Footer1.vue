@@ -12,16 +12,33 @@
             sm="4"
             md="3"
             >
-            <h4>COMPANY</h4>
+            <h4>ZEE5</h4>
             
             <v-divider></v-divider>
             <br>
-            <font size="2">FAQ<br><br>
-            About<br><br>
-            Careers<br><br>
-            Blog<br><br></font>
+            <font size="2">About us<br><br>
+            Help centre<br><br>
+            Privacy Policy<br><br>
+            Parental Control<br><br>
+            Terms of use<br><br></font>
           </v-col>
+          
           <v-col
+            cols="12"
+            sm="4"
+            md="3"
+            >
+            <h4>OUR COMMUNITY</h4>
+            <v-divider></v-divider>
+            <br>
+            <font size="2">Originals<br><br>
+            News<br><br>
+            Shows<br><br>
+            Movies<br></br>
+            Kids<br><br></font>
+          </v-col>
+          
+            <v-col
             cols="12"
             sm="4"
             md="3"
@@ -34,20 +51,6 @@
             <v-icon>mdi-phone</v-icon>080-6824-5911<br><br></font>
           
           </v-col>
-          <v-col
-            cols="12"
-            sm="4"
-            md="3"
-            >
-            <h4>MORE FROM US</h4>
-            <v-divider></v-divider>
-            <br>
-            <font size="2">Bulk/Party Order<br><br>
-            Cake Order<br><br>
-            FreshClub<br><br>
-            Offers<br></br></font>
-          </v-col>
-            
 
           <v-col
             cols="12"
@@ -56,13 +59,13 @@
             >
             <h4>CONTACT US</h4>
             <v-divider></v-divider><br>
-            <v-btn icon color="grey" class="mt-16">
+            <v-btn icon color="pink" class="mt-16">
               <v-icon medium>mdi-facebook</v-icon>
             </v-btn>
-            <v-btn icon color="grey"class="mt-16">
+            <v-btn icon color="pink"class="mt-16">
               <v-icon medium>mdi-twitter</v-icon>
             </v-btn>
-            <v-btn icon color="grey" class="mt-16">
+            <v-btn icon color="pink" class="mt-16">
               <v-icon medium>mdi-instagram</v-icon>
             </v-btn>
           </v-col>
