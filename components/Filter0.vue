@@ -3,7 +3,7 @@
     <v-dialog
       v-model="dialog"
       scrollable
-      width="1000 px"
+      
     >
       <template v-slot:activator="{ on, attrs }">
         <v-btn
@@ -18,7 +18,7 @@
         </v-btn>
       </template>
       <v-card>
-
+        
         <v-row>
         <v-col>
          
@@ -228,6 +228,7 @@
 
     <spacer> </spacer>
 
+    
      <v-btn>
       
       <v-icon>mdi-home</v-icon>

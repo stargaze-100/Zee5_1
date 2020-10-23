@@ -13,7 +13,7 @@
       </v-col>
     
       <v-col cols="9" md="5" sm="6">
-        
+          <Slide2/>
           <searchbar/>
         
        </v-col>
@@ -54,7 +54,7 @@
         width="2000px"
         centered>
         <v-col cols="12" sm="16" md="12">
-        <Filter0/>
+        <Filter1/>
         </v-col>
        
       </v-card>

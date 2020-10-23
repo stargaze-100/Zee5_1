@@ -3,7 +3,7 @@
 
     <v-toolbar
 
-      color="black"
+      color="white"
       
       dark
       flat

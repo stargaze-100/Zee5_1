@@ -1,6 +1,6 @@
 <template>
   <v-container class="pa-4 text-center">
-    <v-row class="fill-height" align="center" justify="center">
+    <v-row align="center" justify="center">
       <template v-for="(item, i) in items">
         <v-col
           :key="i"
@@ -14,13 +14,13 @@
             >
               <v-img
                 :src="item.img"
-                height="225px"
+                
               >
                 <v-card-title>
                   <v-row
-                    class="fill-height flex-column"
+                   
                     justify="space-between"
-                  >
+                  > <!--class="fill-height flex-column"-->
                   </v-row>
                 </v-card-title>
               </v-img>

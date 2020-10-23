@@ -1,6 +1,6 @@
 <template>
   <v-carousel 
-    cols="12" md="5"
+    
     cycle
     hide-delimiter-background
     delimiter-icon="mdi-minus"
@@ -35,6 +35,9 @@
           },
           {
             src: 'https://i.ytimg.com/vi/bDfGQ00hsSU/maxresdefault.jpg',
+          },
+          {
+            src: 'https://m.media-amazon.com/images/M/MV5BZmI1Y2YzMDctNDI3NC00YmRjLTk4NjYtOWVjMDQxNWE0MDBkXkEyXkFqcGdeQXVyMjUxMTY3ODM@._V1_.jpg',
           },
         ],
       }

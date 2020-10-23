@@ -20,14 +20,14 @@
 
        <v-col cols="12"
             sm="3"
-            md="4" >
-        <v-card
-          class="pa-2 mt-xs-n3 ml-md-14"
+            md="4" 
+       
+          class="pl-md-16 pt-2 pl-sm-4"
           outlined
           tile
           centered
-          color="purple darken-4"
-        >
+          color="purple darken-4">
+        
            <v-btn class="rounded-circle ma-2">
             <v-icon>mdi-pencil</v-icon>
           </v-btn>
@@ -41,24 +41,19 @@
           </v-btn>
           
           <v-btn class="rounded-circle ma-2">
-          <v-app-bar-nav-icon></v-app-bar-nav-icon>
+          <v-app-bar-nav-icon class="rounded-circle ma-2"></v-app-bar-nav-icon>
           </v-btn>
 
-          </v-card>
+         
         </v-col>
       </v-row>
 
       <v-row>
-
-        <v-card class="" 
-        width="2000px"
-        centered>
         <v-col cols="12" sm="16" md="12">
-        <Filter0/>
-        </v-col>
-       
-      </v-card>
-       
+         
+          <Filter0/>
+        
+       </v-col>
       </v-row>
       
       <v-row>
