@@ -1,4 +1,4 @@
-<!--<template>
+<template>
   <v-card>
     <v-toolbar
       color="deep-purple accent-4"
@@ -107,4 +107,4 @@
       },
     },
   }
-</script>-->
+</script>
