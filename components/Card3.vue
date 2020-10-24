@@ -15,7 +15,7 @@
               <v-img
                 :src="item.img"
                 
-              >
+              ><!--Call the images from script-->
                 <v-card-title>
                   <v-row
                    

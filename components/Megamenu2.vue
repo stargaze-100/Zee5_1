@@ -15,19 +15,7 @@
           width="80" height="80">
         </v-app-bar-nav-icon>
       </v-col>
-        <!--<v-toolbar-title>Zee5</v-toolbar-title> -->
-        <!--<template>
-          <img
-            class="VuetifyLogo"
-            alt="Vuetify Logo"
-            src="zee5logo11.png">
-        </template>
-          <style>
-          .VuetifyLogo {
-            height: 50px;
-            width: 70px;}
-          </style>
-</template> -->
+       
 
         <v-spacer></v-spacer>
       <v-col> 

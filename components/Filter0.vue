@@ -12,7 +12,7 @@
           v-bind="attrs"
           v-on="on"
         >
-          <v-icon>mdi-filter</v-icon>
+          <v-icon>mdi-filter</v-icon><!--Is a dialogue box originally-->
         <spacer></spacer>
           <v-list-item-title>Filter</v-list-item-title>
         </v-btn>
@@ -21,7 +21,7 @@
         
         <v-row>
         <v-col>
-         
+         <!--Checkboxes in order to filter content-->
         <v-title>Year</v-title>
         <v-divider></v-divider>
             <v-checkbox
@@ -205,7 +205,7 @@
         </v-col>
 
         </v-row>
-
+        <!--choice of filtering or not-->
         <v-card-actions>
           <v-spacer></v-spacer>
           <v-btn
@@ -228,7 +228,7 @@
 
     <spacer> </spacer>
 
-    
+    <!--the other navigation menu icons-->
      <v-btn>
       
       <v-icon>mdi-home</v-icon>

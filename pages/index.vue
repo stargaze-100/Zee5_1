@@ -8,7 +8,7 @@
         <v-img class="ml-sm-16 mt-sm-10" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Zee5_Official_logo.svg/1200px-Zee5_Official_logo.svg.png" 
           width="60" height="60">
           </v-img>
-        </v-app-bar-nav-icon>
+        </v-app-bar-nav-icon><!--logo-->
         
       </v-col>
     
@@ -26,7 +26,7 @@
           outlined
           tile
           centered
-          color="purple darken-4">
+          color="purple darken-4"> <!--right side navigation icons-->
         
            <v-btn class="rounded-circle ma-2">
             <v-icon>mdi-pencil</v-icon>
@@ -59,7 +59,7 @@
       <v-row>
         <v-col cols="12" sm="16" md="14">
               <v-card color="purple darken-4">
-                <Slide1/>
+                <Slide1/> <!--featured taked from components-->
               </v-card>
 
             </v-col>
@@ -84,7 +84,7 @@
             </v-card>
 
               <v-carousel-item>
-                <Cards/>
+                <Cards/><!--more series-->
               </v-carousel-item>
               <v-carousel-item>
                 <Card2/>

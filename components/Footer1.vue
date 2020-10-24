@@ -4,7 +4,7 @@
       app
       color="grey-darken" 
       > 
-      <span class="white--text">&copy; {{ new Date().getFullYear() }}</span>
+      <!--<span class="white--text">&copy; {{ new Date().getFullYear() }}</span>-->
       <v-container>
         <v-row>
           <v-col

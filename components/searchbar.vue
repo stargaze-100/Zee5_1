@@ -11,8 +11,8 @@
             label="Search"
             solo-inverted
             
-            append-icon="mdi-magnify">
-            </v-text-field>
+            append-icon="mdi-magnify"><!--Adds search icon in the text area-->
+          </v-text-field>
         </v-card>
        
         </template>

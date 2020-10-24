@@ -17,7 +17,8 @@
       width="1000"
       height="1600"
       centered
-    ></v-carousel-item>
+    ><!--Featured series of zee5-->
+    </v-carousel-item>
   </v-carousel>
 </template>
 
