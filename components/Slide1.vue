@@ -10,12 +10,13 @@
     justify="center"
   >
     <v-carousel-item
-    cols="12" md="5"
+    cols="12" md="5" sm="6"
       v-for="(item,i) in items"
       :key="i"
       :src="item.src"
+      aspect-ratio="12/6"
       width="1000"
-      height="1600"
+      
       centered
     ><!--Featured series of zee5-->
     </v-carousel-item>

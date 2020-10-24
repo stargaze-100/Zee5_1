@@ -5,14 +5,15 @@
       <v-col cols="2" sm="2" md="3"> 
         
           <v-app-bar-nav-icon>
-        <v-img class="ml-sm-16 mt-sm-10" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Zee5_Official_logo.svg/1200px-Zee5_Official_logo.svg.png" 
+        <v-img aspect-ratio="12/9"
+        class="ml-sm-16 mt-sm-10" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Zee5_Official_logo.svg/1200px-Zee5_Official_logo.svg.png" 
           width="60" height="60">
           </v-img>
         </v-app-bar-nav-icon><!--logo-->
         
       </v-col>
     
-      <v-col cols="9" md="5" sm="6">
+      <v-col cols="9" md="4" sm="6">
         
           <searchbar/>
         
@@ -20,9 +21,9 @@
 
        <v-col cols="12"
             sm="3"
-            md="4" 
-       
-          class="pl-md-16 pt-2 pl-sm-4"
+            md="5" 
+          
+          class="pl-md-16 pt-2 pl-sm-4" 
           outlined
           tile
           centered
@@ -41,7 +42,7 @@
           </v-btn>
           
           <v-btn class="rounded-circle ma-2">
-          <v-app-bar-nav-icon class="rounded-circle ma-2"></v-app-bar-nav-icon>
+          <v-app-bar-nav-icon></v-app-bar-nav-icon>
           </v-btn>
 
          
