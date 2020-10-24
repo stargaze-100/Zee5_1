@@ -27,7 +27,7 @@
             rounded
             hide-details
             label="Search"
-            solo-inverted
+            solo-inverted 
             
             append-icon="mdi-magnify"
            
