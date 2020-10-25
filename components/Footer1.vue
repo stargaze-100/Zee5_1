@@ -4,7 +4,7 @@
       app
       color="grey-darken" 
       > 
-      <!--<span class="white--text">&copy; {{ new Date().getFullYear() }}</span>-->
+      <!--<span class="whitetext">&copy; {{ new Date().getFullYear() }}</span>-->
       <v-container>
         <v-row>
           <v-col
@@ -43,7 +43,7 @@
             sm="4"
             md="3"
             >
-            <h4>HELP & CONTACT</h4>
+            <h4>HELP and CONTACT</h4>
             <v-divider></v-divider>
             <br>
             <font size="2"><v-icon>mdi-target</v-icon>Help Center<br><br>

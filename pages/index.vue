@@ -13,7 +13,7 @@
         
       </v-col>
     
-      <v-col cols="9" md="4" sm="6">
+      <v-col cols="9" md="6" sm="6">
         
           <searchbar/>
         
