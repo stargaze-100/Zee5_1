@@ -2,8 +2,7 @@
   <div>
     <v-content>    
       
-       <Slide2/>
-       <Megemenu2/>
+       <Filter/>
       
     </v-content>
   </div>

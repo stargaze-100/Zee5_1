@@ -19,11 +19,11 @@
         
        </v-col>
 
-       <v-col cols="12"
+       <v-col cols="7"
             sm="3"
-            md="5" 
+            md="3" 
+          class="pl-md-16 pt-3 pl-sm-4" 
           
-          class="pl-md-16 pt-2 pl-sm-4" 
           outlined
           tile
           centered
@@ -42,7 +42,7 @@
           </v-btn>
           
           <v-btn class="rounded-circle ma-2">
-          <v-app-bar-nav-icon></v-app-bar-nav-icon>
+           <v-icon>mdi-format-list-bulleted-square</v-icon>
           </v-btn>
 
          

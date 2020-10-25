@@ -7,6 +7,7 @@
             class="pr-xs-1 mt-3 pl-md-1"
             solo
             rounded
+             v-model="message2"
             hide-details
             label="Search"
             solo-inverted

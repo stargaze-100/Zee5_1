@@ -1,5 +1,6 @@
-<template>
-  <v-row justify="center">
+<template fluid>
+  <v-row align="center">
+  <v-col align="center">
     <v-dialog
       v-model="dialog"
       scrollable
@@ -17,10 +18,13 @@
           <v-list-item-title>Filter</v-list-item-title>
         </v-btn>
       </template>
+
       <v-card>
         
         <v-row>
+        <br></br>
         <v-col>
+        
          <!--Checkboxes in order to filter content-->
         <v-title>Year</v-title>
         <v-divider></v-divider>
@@ -224,51 +228,86 @@
           </v-btn>
         </v-card-actions>
       </v-card>
+     
     </v-dialog>
+     </v-col >
 
     <spacer> </spacer>
-
+    <v-col class=""
+    align="center">
     <!--the other navigation menu icons-->
-     <v-btn>
+     <v-btn color = "black">
       
       <v-icon>mdi-home</v-icon>
       <spacer></spacer>
       <span>Home</span>
     </v-btn>
+    </v-col>
 
-    <v-btn>
+    <v-col align="center">
+    <v-btn color = "black">
       
       <v-icon>mdi-television-play</v-icon>
       <spacer></spacer>
       <span>Originals</span>
     </v-btn>
+    </v-col>
 
-    <v-btn>
+    <v-col class=""
+    align="center">
+    <v-btn color = "black">
      
       <v-icon>mdi-book</v-icon>
       <spacer></spacer>
        <span>Club</span>
     </v-btn>
-
+    </v-col>
     
-    <v-btn>
-     
-      <v-icon>mdi-apps</v-icon>
-      <spacer></spacer>
-       <span>More</span>
-    </v-btn>
+    <v-col>
+    <v-menu
+      v-for="([text, rounded], index) in btns"
+      :key="text"
+      :rounded="rounded"
+      offset-y
+    >
+      <template v-slot:activator="{ attrs, on }">
+        <v-btn
+          color="black"
+          class="white--text ma-8"
+          v-bind="attrs"
+          v-on="on"
+        >
+         <v-icon>mdi-cards</v-icon>
+          More
+        </v-btn>
+      </template>
+
+      <v-list>
+        <v-list-item
+          v-for="item in items"
+          :key="item"
+          link
+        >
+          <v-list-item-title v-text="item"></v-list-item-title>
+        </v-list-item>
+      </v-list>
+    </v-menu>
+  </v-col>
     
   </v-row>
 </template>
 
 <script>
   export default {
-    data () {
-      return {
-        dialogm1: '',
-        dialog: false,
-      }
-      
-    },
+    data: () => ({
+      btns: [
+        
+        ['Large', 'lg'],
+        
+      ],
+      colors: ['deep-purple accent-4', 'error', 'teal darken-1'],
+      items: ['Movie','Show', 'News', 'Kids','Games', 'Music', 'Live TV', 'Stories'],
+     
+    }),
   }
 </script>
