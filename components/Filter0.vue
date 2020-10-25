@@ -1,6 +1,8 @@
 <template fluid>
   <v-row align="center">
-  <v-col align="center">
+  <v-col md="3" cols="12"
+  align="center"
+  class="pr-md-9 ">
     <v-dialog
       v-model="dialog"
       scrollable
@@ -8,14 +10,15 @@
     >
       <template v-slot:activator="{ on, attrs }">
         <v-btn
-          color="pink"
+          color = "purple lighten-3"
           dark
           v-bind="attrs"
           v-on="on"
+          
         >
-          <v-icon>mdi-filter</v-icon><!--Is a dialogue box originally-->
+          <v-icon color = "black">mdi-filter</v-icon><!--Is a dialogue box originally-->
         <spacer></spacer>
-          <v-list-item-title>Filter</v-list-item-title>
+          <v-title>Filter</v-title>
         </v-btn>
       </template>
 
@@ -230,31 +233,26 @@
       </v-card>
      
     </v-dialog>
-     </v-col >
+     </v-col class = "">
 
     <spacer> </spacer>
-    <v-col class=""
+    <!--<v-col class="pr-md-12 ml-md-2 pl-sm-8"
     align="center">
-    <!--the other navigation menu icons-->
+    <!--the other navigation menu icons--
      <v-btn color = "black">
       
       <v-icon>mdi-home</v-icon>
       <spacer></spacer>
       <span>Home</span>
     </v-btn>
-    </v-col>
-
-    <v-col align="center">
+   
     <v-btn color = "black">
       
       <v-icon>mdi-television-play</v-icon>
       <spacer></spacer>
       <span>Originals</span>
     </v-btn>
-    </v-col>
-
-    <v-col class=""
-    align="center">
+   
     <v-btn color = "black">
      
       <v-icon>mdi-book</v-icon>
@@ -262,8 +260,10 @@
        <span>Club</span>
     </v-btn>
     </v-col>
-    
-    <v-col>
+    -->
+    <v-col cols="12" md="6" 
+    align = "center"
+    class = "">
     <v-menu
       v-for="([text, rounded], index) in btns"
       :key="text"
@@ -273,13 +273,45 @@
       <template v-slot:activator="{ attrs, on }">
         <v-btn
           color="black"
-          class="white--text ma-8"
+          class="white--text "
+         
+        >
+         <v-icon>mdi-home</v-icon>
+          Home
+         </v-btn>
+
+
+          <v-btn
+          color="black"
+          class="white--text"
           v-bind="attrs"
           v-on="on"
         >
          <v-icon>mdi-cards</v-icon>
           More
+          
         </v-btn>
+
+        <v-btn
+         
+          color="black"
+          class="white--text "
+         
+        >
+         <v-icon>mdi-book</v-icon>
+          Club
+         </v-btn>
+         
+         <v-btn
+          color="black"
+          class="white--text "
+         
+        >
+         <v-icon>mdi-television-play</v-icon>
+          Originals
+         </v-btn>
+
+       
       </template>
 
       <v-list>
@@ -305,7 +337,7 @@
         ['Large', 'lg'],
         
       ],
-      colors: ['deep-purple accent-4', 'error', 'teal darken-1'],
+     
       items: ['Movie','Show', 'News', 'Kids','Games', 'Music', 'Live TV', 'Stories'],
      
     }),

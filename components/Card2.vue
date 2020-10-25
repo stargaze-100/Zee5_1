@@ -1,5 +1,6 @@
 <template>
-  <v-container class="pa-4 text-center">
+  <v-container class="pa-4 text-center"
+  >
     <v-row align="center" justify="center">
       <template v-for="(item, i) in items">
 
@@ -7,6 +8,7 @@
           :key="i"
           cols="12"
           md="4"
+          
         >
           <v-hover v-slot:default="{ hover }">
             <v-card
