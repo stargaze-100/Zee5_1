@@ -17,20 +17,20 @@
         
       </v-col>
     
-      <v-col cols="9" md="6" sm="8">
+      <v-col cols="9" md="6" sm="7">
         
           <searchbar/>
         
        </v-col>
 
        <v-col cols="16"
-            sm="4"
+            sm="3"
             md="3" 
-          class="pl-md-16 pt-6 pr-sm-1" 
+          class="pl-md-12 pt-6" 
           
           outlined
           tile
-          centered
+          
           > <!--right side navigation icons-->
         
            <v-btn class="rounded-circle ma-2" color = "purple lighten-3">
