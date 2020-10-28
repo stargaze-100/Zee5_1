@@ -126,7 +126,8 @@
             </v-carousel>
             </v-card>
             <v-card>
-            <Footer1/>
+            
+            <Footer2/>
             </v-card>
             </v-card>
             
