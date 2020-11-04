@@ -17,7 +17,7 @@
         
       </v-col>
     
-      <v-col cols="10" md="6" sm="7">
+      <v-col cols="9" md="6" sm="7">
         
           <searchbar/>
         
@@ -26,7 +26,7 @@
        <v-col cols="10"
             sm="3"
             md="3" 
-          class="pt-6 d-flex flex-row-reverse" 
+          class="pt-6 pl-12 d-flex flex-row-reverse" 
           
           
           tile

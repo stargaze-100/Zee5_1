@@ -50,9 +50,7 @@
         /></font>
         <v-divider></v-divider>
         <br />
-        <h4>Premium Zee5 Originals</h4>
-        <br />
-        <font size="2">Mafia <br />Reject <br />Lalbazar <br />Rangbaaz</font>
+       
       </v-col>
 
       <v-col cols="12" md="2" lg="2" sm="2" xs="2">

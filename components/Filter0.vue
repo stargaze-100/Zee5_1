@@ -29,31 +29,8 @@
         
         <v-row>
         <br></br>
-        <v-col>
-        
-         <!--Checkboxes in order to filter content-->
-        <v-title>Year</v-title>
-        <v-divider></v-divider>
-            <v-checkbox
-            color="pink"
-              label="2001-2005"
-              
-            ></v-checkbox>
-            <v-checkbox
-              label="2006-2010"
-              color="pink"
-            ></v-checkbox>
-            <v-checkbox
-            color="pink"
-              label="2011-2015"
-            ></v-checkbox>
-            <v-checkbox
-            color="pink"
-              label="2016-2020"
-            ></v-checkbox>
-         </v-col>
 
-        <v-col>
+        <v-col >
         <v-title>Language</v-title>
         <v-divider></v-divider>
             <v-checkbox
@@ -94,73 +71,6 @@
             ></v-checkbox>
         </v-col>
 
-        <v-col>
-        <v-title>Status</v-title>
-        <v-divider></v-divider>
-            <v-checkbox
-              label="Airing"
-              color="pink"
-            ></v-checkbox>
-            <v-checkbox
-              label="Finished"
-              color="pink"
-            ></v-checkbox>
-            <v-checkbox
-              label="On-hold"
-              color="pink"
-            ></v-checkbox>
-            <v-checkbox
-              label="Upcoming"
-              color="pink"
-            ></v-checkbox>
-        </v-col>
-
-        <v-col>
-        <v-title>Sort</v-title>
-        <v-divider></v-divider>
-            <v-checkbox
-            color="pink"
-              label="Default"
-            ></v-checkbox>
-            <v-checkbox
-            color="pink"
-              label="Recently added"
-            ></v-checkbox>
-            <v-checkbox
-            color="pink"
-              label="Recently updated"
-            ></v-checkbox>
-            <v-checkbox
-            color="pink"
-              label="Popularity"
-            ></v-checkbox>
-             <v-checkbox
-             color="pink"
-              label="Most watched"
-            ></v-checkbox>
-             <v-checkbox
-             color="pink"
-              label="Release date"
-            ></v-checkbox>
-             <v-checkbox
-             color="pink"
-              label="Alphabetical"
-            ></v-checkbox>
-        </v-col>
-
-        <v-col>
-        <v-title>Sub/dub</v-title>
-        <v-divider></v-divider>
-            <v-checkbox
-            color="pink"
-              label="Subbed"
-            ></v-checkbox>
-            <v-checkbox
-            color="pink"
-              label="Dubbed"
-            ></v-checkbox>
-            
-        </v-col>
         <v-col>
         <v-title>Genre</v-title>
         <v-divider></v-divider>
@@ -214,6 +124,100 @@
             ></v-checkbox>
         </v-col>
 
+        <v-col>
+        <v-title>Sort</v-title>
+        <v-divider></v-divider>
+            <v-checkbox
+            color="pink"
+              label="Default"
+            ></v-checkbox>
+            <v-checkbox
+            color="pink"
+              label="Recently added"
+            ></v-checkbox>
+            <v-checkbox
+            color="pink"
+              label="Recently updated"
+            ></v-checkbox>
+            <v-checkbox
+            color="pink"
+              label="Popularity"
+            ></v-checkbox>
+             <v-checkbox
+             color="pink"
+              label="Most watched"
+            ></v-checkbox>
+             <v-checkbox
+             color="pink"
+              label="Release date"
+            ></v-checkbox>
+             <v-checkbox
+             color="pink"
+              label="Alphabetical"
+            ></v-checkbox>
+        </v-col>
+
+        <v-col>
+        
+         <!--Checkboxes in order to filter content-->
+        <v-title>Year</v-title>
+        <v-divider></v-divider>
+            <v-checkbox
+            color="pink"
+              label="2001-2005"
+              
+            ></v-checkbox>
+            <v-checkbox
+              label="2006-2010"
+              color="pink"
+            ></v-checkbox>
+            <v-checkbox
+            color="pink"
+              label="2011-2015"
+            ></v-checkbox>
+            <v-checkbox
+            color="pink"
+              label="2016-2020"
+            ></v-checkbox>
+         </v-col>
+
+        <v-col>
+        <v-title>Sub/dub</v-title>
+        <v-divider></v-divider>
+            <v-checkbox
+            color="pink"
+              label="Subbed"
+            ></v-checkbox>
+            <v-checkbox
+            color="pink"
+              label="Dubbed"
+            ></v-checkbox>
+            
+        </v-col>
+
+         <v-col>
+        <v-title>Status</v-title>
+        <v-divider></v-divider>
+            <v-checkbox
+              label="Airing"
+              color="pink"
+            ></v-checkbox>
+            <v-checkbox
+              label="Finished"
+              color="pink"
+            ></v-checkbox>
+            <v-checkbox
+              label="On-hold"
+              color="pink"
+            ></v-checkbox>
+            <v-checkbox
+              label="Upcoming"
+              color="pink"
+            ></v-checkbox>
+        </v-col>
+
+        
+
         </v-row>
         <!--choice of filtering or not-->
         <v-card-actions>
@@ -264,7 +268,7 @@
     </v-btn>
     </v-col>
     -->
-        <v-col cols="12" md="6" 
+    <v-col cols="12" md="6" 
     align = "center"
     class = "">
     <v-menu
