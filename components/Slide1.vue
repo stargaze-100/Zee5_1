@@ -3,18 +3,18 @@
     style="background-color:#2B1031"
     cycle
     hide-delimiter-background
-    delimiter-icon="mdi-minus"
+    delimiter-icon="mdi-minus" 
     show-arrows-on-hover
-    class="pa-"
+    class=""
     align="center"
     justify="center"
-  >
+  > <!--minus sign from the high fidelity prototype-->
     <v-carousel-item
-    cols="12" md="5" sm="6"
+    cols="12" md="5" sm="6" xs="12"
       v-for="(item,i) in items"
       :key="i"
       :src="item.src"
-      aspect-ratio="12/6"
+      
       width="1000"
       
       centered

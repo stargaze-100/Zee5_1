@@ -14,14 +14,17 @@
           dark
           v-bind="attrs"
           v-on="on"
-          
+          fab
+          class="d-flex flex-row mr-md-12"
+         
         >
-          <v-icon color = "black">mdi-filter</v-icon><!--Is a dialogue box originally-->
+          <v-icon color="black">mdi-filter</v-icon><!--Is a dialogue box originally-->
         <spacer></spacer>
-          <v-title>Filter</v-title>
         </v-btn>
+        
       </template>
 
+      <v-scroll>
       <v-card>
         
         <v-row>
@@ -225,13 +228,13 @@
           <v-btn
             color="deep-purple accent-1"
             text
-            @click="dialog = false"
+            @click="dialog = true"
           >
             Cancel
           </v-btn>
         </v-card-actions>
       </v-card>
-     
+     </v-scroll>
     </v-dialog>
      </v-col class = "">
 
@@ -261,6 +264,56 @@
     </v-btn>
     </v-col>
     -->
+        <v-col cols="12" md="6" 
+    align = "center"
+    class = "">
+    <v-menu
+      v-for="([text, rounded], index) in btns"
+      :key="text"
+      :rounded="rounded"
+      offset-y
+    >
+      <template v-slot:activator="{ attrs, on }">
+        <v-btn
+          style="background-color:#2B1031"
+         
+          
+        >
+        
+          Home
+         </v-btn>
+
+
+          <v-btn
+          style="background-color:#2B1031"
+          
+          v-bind="attrs"
+          v-on="on"
+        >
+        
+          More
+          
+        </v-btn>
+
+        <v-btn
+         
+          style="background-color:#2B1031"
+         
+        >
+        
+          Club
+         </v-btn>
+         
+         <v-btn
+          style="background-color:#2B1031"
+          
+          
+         
+        >
+        
+          Originals
+         </v-btn>
+         <!--
     <v-col cols="12" md="6" 
     align = "center"
     class = "">
@@ -310,7 +363,7 @@
          <v-icon>mdi-television-play</v-icon>
           Originals
          </v-btn>
-
+-->
        
       </template>
 
@@ -319,6 +372,7 @@
           v-for="item in items"
           :key="item"
           link
+          style="background-color:#2B1031"
         >
           <v-list-item-title v-text="item"></v-list-item-title>
         </v-list-item>

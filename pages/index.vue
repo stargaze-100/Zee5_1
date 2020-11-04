@@ -2,14 +2,14 @@
 <v-container fluid>
   <v-content style="background-color:#2B1031" centered>
   <v-footer 
-  padless
+  
   style="background-color:#2B1031">
     <v-row>
     
       <v-col cols="2" sm="2" md="3"> 
         
-          <v-app-bar-nav-icon>
-        <v-img aspect-ratio="12/9"
+          <v-app-bar-nav-icon disabled>
+        <v-img 
         class="ml-sm-16 mt-sm-10" src="zee5logo.png" 
           width="100" height="100">
           </v-img>
@@ -17,35 +17,35 @@
         
       </v-col>
     
-      <v-col cols="9" md="6" sm="7">
+      <v-col cols="10" md="6" sm="7">
         
           <searchbar/>
         
        </v-col>
 
-       <v-col cols="16"
+       <v-col cols="10"
             sm="3"
             md="3" 
-          class="pl-md-12 pt-6" 
+          class="pt-6 d-flex flex-row-reverse" 
           
-          outlined
+          
           tile
           
           > <!--right side navigation icons-->
         
-           <v-btn class="rounded-circle ma-2" color = "purple lighten-3">
+           <v-btn fab small class= "mt-1 ma-2" color = "purple lighten-3">
             <v-icon color ="black">mdi-pencil</v-icon> 
           </v-btn>
 
-           <v-btn class="rounded-circle ma-2" color = "purple lighten-3">
+           <v-btn fab small class= "mt-1 ma-2" color = "purple lighten-3">
             <v-icon color ="black">mdi-wrench</v-icon>
           </v-btn>
           
-          <v-btn class="rounded-circle ma-2" color = "purple lighten-3">
+          <v-btn fab small class= "mt-1 ma-2" color = "purple lighten-3">
             <v-icon color ="black">mdi-account</v-icon>
           </v-btn>
           
-          <v-btn class="rounded-circle ma-2" color = "purple lighten-3">
+          <v-btn fab small class= "mt-1 ma-2" color = "purple lighten-3">
            <v-icon color ="black">mdi-format-list-bulleted-square</v-icon>
           </v-btn>
 
@@ -55,7 +55,7 @@
       </v-footer>
      <v-divider></v-divider>
       <v-row>
-        <v-col cols="12" sm="16" md="12">
+        <v-col cols="12" sm="16" md="12" xs="12">
          
           <Filter0/>
         
@@ -72,12 +72,11 @@
             </v-row>
 
         <v-row>
-        <v-col cols="12" sm="16" md="14">
-        <v-card 
-          color="black"
-          class="mt-sm-5 mt-xs-4">
-            
-            <v-card color="black">
+        <v-col cols="12" sm="16" md="14" 
+        >
+        
+            <v-scroll>
+            <v-card style="background-color:#2B1031">
             <h1>Top shows</h1>
             <v-divider></v-divider>
             <v-carousel hide-delimiters>
@@ -89,7 +88,7 @@
               </v-carousel-item>
             </v-carousel>
             </v-card>
-            <v-card color="black">
+            <v-card style="background-color:#2B1031">
             <h1>Recommended</h1>
             <v-divider></v-divider>
               <v-carousel hide-delimiters>
@@ -101,7 +100,7 @@
               </v-carousel-item>
             </v-carousel>
             </v-card>
-            <v-card color="black">
+            <v-card style="background-color:#2B1031">
             <h1>Thriller</h1>
             <v-divider></v-divider>
               <v-carousel hide-delimiters>
@@ -113,7 +112,7 @@
               </v-carousel-item>
             </v-carousel>
             </v-card>
-            <v-card color="black">
+            <v-card style="background-color:#2B1031">
             <h1>Comedy</h1>
             <v-divider></v-divider>
               <v-carousel hide-delimiters>
@@ -125,11 +124,11 @@
               </v-carousel-item>
             </v-carousel>
             </v-card>
+          </v-scroll>
             <v-card>
-            
             <Footer2/>
             </v-card>
-            </v-card>
+            
             
             </v-col>
            

@@ -10,7 +10,7 @@
     </v-content>
     
     <!-- Footer -->
-    <v-footer color="purple darken-4" app>
+    <v-footer style="background-color:#2B1031" app>
       <!--<span class="white--text">&copy; {{ new Date().getFullYear() }}</span>-->
     </v-footer>
 
