@@ -4,7 +4,7 @@
           tile
           centered
           <v-text-field
-            class="pr-xs-1 mt-3 pl-md-1"
+            class="pr-sm-10 mt-3 pl-md-1"
             solo
             rounded
              v-model="message2"

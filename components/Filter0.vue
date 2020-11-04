@@ -272,6 +272,7 @@
       :key="text"
       :rounded="rounded"
       offset-y
+      transition="slide-y-transition"
     >
       <template v-slot:activator="{ attrs, on }">
         <v-btn

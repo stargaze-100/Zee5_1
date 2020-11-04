@@ -1,6 +1,6 @@
 <template>
   <v-carousel 
-    style="background-color:#2B1031"
+    style="background-color:#241025"
     cycle
     hide-delimiter-background
     delimiter-icon="mdi-minus" 

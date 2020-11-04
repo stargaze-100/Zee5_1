@@ -1,9 +1,9 @@
 <template>
 <v-container fluid>
-  <v-content style="background-color:#2B1031" centered>
+  <v-content style="background-color:#241025" centered>
   <v-footer 
   
-  style="background-color:#2B1031">
+  style="background-color:#1D0E1E">
     <v-row>
     
       <v-col cols="2" sm="2" md="3"> 
@@ -54,6 +54,7 @@
       </v-row>
       </v-footer>
      <v-divider></v-divider>
+     <v-footer  style="background-color:#241025">
       <v-row>
         <v-col cols="12" sm="16" md="12" xs="12">
          
@@ -61,6 +62,7 @@
         
        </v-col>
       </v-row>
+      </v-footer>
       
       <v-row>
         <v-col cols="12" sm="16" md="14">
@@ -76,7 +78,7 @@
         >
         
             <v-scroll>
-            <v-card style="background-color:#2B1031">
+            <v-card style="background-color:#241025">
             <h1>Top shows</h1>
             <v-divider></v-divider>
             <v-carousel hide-delimiters>
@@ -88,7 +90,7 @@
               </v-carousel-item>
             </v-carousel>
             </v-card>
-            <v-card style="background-color:#2B1031">
+            <v-card style="background-color:#241025">
             <h1>Recommended</h1>
             <v-divider></v-divider>
               <v-carousel hide-delimiters>
@@ -100,7 +102,7 @@
               </v-carousel-item>
             </v-carousel>
             </v-card>
-            <v-card style="background-color:#2B1031">
+            <v-card style="background-color:#241025">
             <h1>Thriller</h1>
             <v-divider></v-divider>
               <v-carousel hide-delimiters>
@@ -112,7 +114,7 @@
               </v-carousel-item>
             </v-carousel>
             </v-card>
-            <v-card style="background-color:#2B1031">
+            <v-card style="background-color:#241025">
             <h1>Comedy</h1>
             <v-divider></v-divider>
               <v-carousel hide-delimiters>
